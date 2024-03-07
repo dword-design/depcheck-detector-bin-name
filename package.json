@@ -1,6 +1,7 @@
 {
   "name": "depcheck-detector-bin-name",
   "version": "1.0.0",
+  "description": "A depcheck detector that detects binaries from a tagged template literal.",
   "repository": "dword-design/depcheck-detector-bin-name",
   "funding": "https://github.com/sponsors/dword-design",
   "license": "MIT",
@@ -38,6 +39,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "description": "A depcheck detector that detects binaries from a tagged template literal."
+  }
 }

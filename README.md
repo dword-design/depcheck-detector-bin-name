@@ -50,7 +50,7 @@
 <!-- /BADGES -->
 
 <!-- DESCRIPTION/ -->
-
+A depcheck detector that detects binaries from a tagged template literal.
 <!-- /DESCRIPTION -->
 
 <!-- INSTALL/ -->
