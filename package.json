@@ -38,5 +38,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "description": "A depcheck detector that detects binaries from a tagged template literal."
 }
