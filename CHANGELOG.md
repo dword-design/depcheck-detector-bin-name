@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/dword-design/depcheck-detector-bin-name/compare/v1.0.0...v1.0.1) (2024-03-07)
+
+
+### Bug Fixes
+
+* update config files ([7131515](https://github.com/dword-design/depcheck-detector-bin-name/commit/7131515bdc4dd5aba76fc992149a41ee093e50cb))
+* write GitHub metadata to package.json [description] ([#1](https://github.com/dword-design/depcheck-detector-bin-name/issues/1)) ([e41b128](https://github.com/dword-design/depcheck-detector-bin-name/commit/e41b1281cc7a827aa7458e04ebf0fec9d1ef60e4))
+
 # 1.0.0 (2024-03-06)
 
 
