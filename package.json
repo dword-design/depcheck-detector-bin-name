@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "fs-extra": "^11.2.0",
-    "module-root": "npm:@dword-design/module-root"
+    "module-root": "npm:@dword-design/module-root@^0"
   },
   "devDependencies": {
     "@dword-design/base": "^11.0.9",

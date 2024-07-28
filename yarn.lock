@@ -7806,7 +7806,7 @@ mocha@^10.2.0:
     yargs-parser "20.2.4"
     yargs-unparser "2.0.0"
 
-"module-root@npm:@dword-design/module-root":
+"module-root@npm:@dword-design/module-root", "module-root@npm:@dword-design/module-root@^0":
   version "0.2.4"
   resolved "https://registry.yarnpkg.com/@dword-design/module-root/-/module-root-0.2.4.tgz#1429bdaa1d477897a90053837729adae4257b790"
   integrity sha512-ns0t/Fxwsf3Egva6SNEStZ/3TKTIgCJW4fGGtQoeAz3PWQRWumrqxTa3tM6dzU4w8thSi8dcaEjP6RRQJtvLhg==
