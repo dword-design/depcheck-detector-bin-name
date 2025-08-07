@@ -1,3 +1,17 @@
+# [2.0.0](https://github.com/dword-design/depcheck-detector-bin-name/compare/v1.0.2...v2.0.0) (2025-08-07)
+
+
+### Bug Fixes
+
+* foo ([571630e](https://github.com/dword-design/depcheck-detector-bin-name/commit/571630eda0be7f0151725f1f5f06df20b5b38342))
+* lock file maintenance ([#6](https://github.com/dword-design/depcheck-detector-bin-name/issues/6)) ([e6d1a4a](https://github.com/dword-design/depcheck-detector-bin-name/commit/e6d1a4acaac23c1022979b2b41cfe1a8058d2499))
+
+
+### BREAKING CHANGES
+
+* node.js >= 20
+* is now a function with cwd option
+
 ## [1.0.2](https://github.com/dword-design/depcheck-detector-bin-name/compare/v1.0.1...v1.0.2) (2024-07-28)
 
 
