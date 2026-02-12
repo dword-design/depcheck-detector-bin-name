@@ -34,7 +34,7 @@
     "module-root": "npm:@dword-design/module-root@^0"
   },
   "devDependencies": {
-    "@dword-design/base": "^15.3.3",
+    "@dword-design/base": "^16.0.0",
     "@dword-design/defu": "^1.0.3",
     "@playwright/test": "^1.54.2",
     "@types/fs-extra": "^11.0.4",
