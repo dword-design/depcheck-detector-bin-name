@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/dword-design/depcheck-detector-bin-name/compare/v2.0.0...v3.0.0) (2026-02-14)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v16 ([#15](https://github.com/dword-design/depcheck-detector-bin-name/issues/15)) ([caf02e4](https://github.com/dword-design/depcheck-detector-bin-name/commit/caf02e45d54f1a775396f2228813e4cd18dfa91d))
+
+
+### BREAKING CHANGES
+
+* node.js >= 22
+
 # [2.0.0](https://github.com/dword-design/depcheck-detector-bin-name/compare/v1.0.2...v2.0.0) (2025-08-07)
 
 
