@@ -19,8 +19,8 @@ importers:
         specifier: ^16.0.0
         version: 16.2.2(@types/node@24.2.0)(@typescript-eslint/parser@8.55.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/utils@8.55.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(@vue/compiler-core@3.5.28)(esbuild@0.27.3)(sass@1.97.3)
       '@dword-design/defu':
-        specifier: ^1.0.3
-        version: 1.0.3
+        specifier: ^2.0.0
+        version: 2.0.0
       '@playwright/test':
         specifier: ^1.54.2
         version: 1.54.2
@@ -272,6 +272,11 @@ packages:
   '@dword-design/defu@1.0.3':
     resolution: {integrity: sha512-QEM8a6CPIrMvudnuNDwr3IxWJ0dcMKG9tgxt3zuPk/NmXV0ejk4qxQJ1PfquJwRzu59UsqNpUAACMG485VMIUA==}
     engines: {node: '>=18'}
+    deprecated: Use @dword-design/defaults
+
+  '@dword-design/defu@2.0.0':
+    resolution: {integrity: sha512-68QCZ/GzHY+z4TOhblGxAA8Vh+OY5zubAxJuT2dwiNh632WJ1JbiQnyJi5D5V1eMZXd2iHifNLiBkkclPK5Y3A==}
+    engines: {node: '>=22'}
     deprecated: Use @dword-design/defaults
 
   '@dword-design/depcheck-parser-sass@6.0.3':
@@ -1861,6 +1866,9 @@ packages:
   defu@6.1.4:
     resolution: {integrity: sha512-mEQCMmwJu317oSz8CwdIOdwf3xMif1ttiM8LTufzc3g6kR+9Pe236twL8j3IYT1F7GfRgGcW6MWxzZjLIkuHIg==}
 
+  defu@6.1.7:
+    resolution: {integrity: sha512-7z22QmUWiQ/2d0KkdYmANbRUVABpZ9SNYyH5vx6PZ+nE5bcC0l7uFvEfHlyld/HcGBFTL536ClDt3DEcSlEJAQ==}
+
   delay@6.0.0:
     resolution: {integrity: sha512-2NJozoOHQ4NuZuVIr5CWd0iiLVIRSDepakaovIN+9eIDHEhdCAEvSy2cuf1DCrPPQLvHmbqTHODlhHg8UCy4zw==}
     engines: {node: '>=16'}
@@ -2156,6 +2164,7 @@ packages:
   eslint@9.39.2:
     resolution: {integrity: sha512-LEyamqS7W5HB3ujJyvi0HQK/dtVINZvd5mAAp9eT5S/ujByGjiZLCzPcHVzuXbpJDJF/cxwHlfceVUDZ2lnSTw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -4976,6 +4985,10 @@ snapshots:
     dependencies:
       defu: 6.1.4
 
+  '@dword-design/defu@2.0.0':
+    dependencies:
+      defu: 6.1.7
+
   '@dword-design/depcheck-parser-sass@6.0.3':
     dependencies:
       enhanced-resolve: 5.19.0
@@ -6639,6 +6652,8 @@ snapshots:
       clone: 1.0.4
 
   defu@6.1.4: {}
+
+  defu@6.1.7: {}
 
   delay@6.0.0: {}
 
